@@ -1,0 +1,9 @@
+- Unifica el dominio en una sola carpeta.
+- Usa UUID en todo el proyecto.
+- Haz que los repositorios cumplan el contrato del puerto.
+- Crea excepciones propias en lugar de ValueError.
+- Centraliza validaciones en la entidad Product.
+- Desacopla el router usando casos de uso y Depends.
+- Agrega tipado y response models.
+- Elimina servicios redundantes.
+- Completa los tests para todos los casos de uso.
