@@ -1,7 +1,7 @@
 from uuid import UUID
-from domain.product import Product
-from domain.ports import ProductRepository
-from domain.exceptions import ProductNotFoundError
+from domain.entities.product import Product
+from domain import ProductRepository
+from domain.ports.exceptions import ProductNotFoundError
 
 
 class CreateProduct:

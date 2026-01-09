@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from uuid import UUID, uuid4
-from domain.exceptions import InvalidProductDataError
+from domain.ports.exceptions import InvalidProductDataError
 
 
 @dataclass

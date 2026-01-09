@@ -1,7 +1,7 @@
 from uuid import uuid4
 import pytest
-from domain.product import Product
-from domain.exceptions import ProductNotFoundError
+from domain.entities.product import Product
+from domain.ports.exceptions import ProductNotFoundError
 from application.product_use_cases import *
 
 
