@@ -14,5 +14,5 @@ app.include_router(router)
 def health():
     return {
         "service": "secure-ecommerce",
-        "status": "up"
+        "status": "esta funcionando todo bien mi pana"
     }
