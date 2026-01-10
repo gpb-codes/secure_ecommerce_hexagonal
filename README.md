@@ -10,3 +10,5 @@ Ecommerce backend desarrollado en FastAPI usando Clean Code y Arquitectura Hexag
 
 ## Ejecución
 uvicorn app.main:app --reload
+
+
