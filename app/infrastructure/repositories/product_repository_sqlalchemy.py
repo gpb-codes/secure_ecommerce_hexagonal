@@ -1,7 +1,7 @@
 from typing import Optional, List
-from domain.ports.ports import ProductRepository
-from domain.ports.product import Product
-from infrastructure.db.models import ProductModel
+from app.domain.ports.ports import ProductRepository
+from app.domain.ports.product import Product
+from app.infrastructure.db.models import ProductModel
 
 
 class ProductRepositorySQLAlchemy(ProductRepository):

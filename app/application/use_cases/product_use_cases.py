@@ -1,7 +1,7 @@
 from decimal import Decimal
-from domain.ports.product import Product
-from domain.ports.ports import ProductRepository
-from domain.ports.exceptions import ProductNotFound
+from app.domain.ports.product import Product
+from app.domain.ports.ports import ProductRepository
+from app.domain.ports.exceptions import ProductNotFound
 
 
 class CreateProductUseCase:
